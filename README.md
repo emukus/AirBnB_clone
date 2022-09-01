@@ -1,4 +1,6 @@
 # AirBnB Clone
+![65f4a1dd9c51265f49d0](https://user-images.githubusercontent.com/101443265/187922555-5478052d-cf7f-450e-bb5e-4541c72b8e08.png)
+
 ## Description
 The Airbnb clone is a complete web application, integrating database storage, a back-end API, and front-end interfacing in a clone of AirBnB.
 
