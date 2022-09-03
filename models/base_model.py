@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Module for Base clase for the AirBnB clone console.
+"""Module for Base class
+Contains the Base class for the AirBnB clone console.
 """
 
 import uuid
@@ -43,13 +44,14 @@ class BaseModel:
             format(type(self).__name__, self.id, self.__dict__)
 
     def save(self):
-        """Updates the updated_at attribute with the current datetime."""
+        """Updates the updated_at attribute
+        with the current datetime."""
 
         self.updated_at = datetime.now()
         storage.save()
 
     def to_dict(self):
-        """Returns a dict representation of an instance."""
+        """Returns a dictionary representation of an instance."""
 
         my_dict = self.__dict__.copy()
         my_dict["__class__"] = type(self).__name__
